@@ -1,0 +1,10 @@
+h3 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 100px;
+    width: 60%;
+}
