@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-button',
@@ -6,7 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./button.component.css']
 })
 export class ButtonComponent {
-    ifClicked() {
-      console.log("Button is clicked");
-    }
+  
+  onClick() {
+    console.log("Button is clicked");
+    // this.router.navigateByUrl('');
+  }
+    
 }
